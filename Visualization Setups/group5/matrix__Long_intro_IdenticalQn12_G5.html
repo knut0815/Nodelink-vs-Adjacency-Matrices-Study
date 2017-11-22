@@ -192,9 +192,7 @@
     <body>     
 
         <span class="zoomBtn" >            
-            <!--<input type="button" id="zoom_in" style="background: url(plusImage.png)" onclick="zoomClick(this);" />
-            <input type="button" id="zoom_out" style="background: url(minusImage.png)" onclick="zoomClick(this);" />
-            -->
+         
         </span> 
 
         <script>
@@ -562,7 +560,7 @@
                     /** now add the image */
                     matrixImage = container.append("image")
                             .attr("xlink:href", function(d) {
-                                var imgUrl = "bigMatImage_4.png";
+                                var imgUrl = "images/bigMatImage_4.png";
                                 return imgUrl;
                             })
                             .attr("id", "matImage")
@@ -1983,7 +1981,7 @@
             function getQuestionLegend(question) {   /**** OPTIONAL FUNCTION ******/
 
                 if (question === "How many nodes can be reached in one step from the highlighted node?") {
-                    return "matrix_legend.png";
+                    return "images/matrix_legend.png";
                 }
                 else {
                     return "";
@@ -2018,7 +2016,7 @@
             }
             function getVisualizationNoteImages() {
                 //return the image names separated by a colon.
-                return "row-label-hover.png:column-label-hover.png:matrix-hover.png";
+                return "images/row-label-hover.png:images/column-label-hover.png:images/matrix-hover.png";
             }
             /**
              * This method may be used to set static node positions.

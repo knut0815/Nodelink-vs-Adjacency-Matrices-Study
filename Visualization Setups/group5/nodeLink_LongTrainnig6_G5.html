@@ -121,9 +121,7 @@
 <script src="d3.js"></script>
 <body>
     <span class="zoomBtn" >            
-        <!-- <input type="button" id="zoom_in" style="background: url(plusImage.png)" onclick="zoomClick(this);" />
-         <input type="button" id="zoom_out" style="background: url(minusImage.png)" onclick="zoomClick(this);" />
-        -->
+       
     </span> 
 
     <script>
@@ -1013,7 +1011,7 @@
         function getQuestionLegend(question) {    /***OPTIONAL FUNCTION ***/
 
             if (question === "How many nodes can be reached in one step from the highlighted node?") {
-                return "undirectedgraph_legend.png";
+                return "images/undirectedgraph_legend.png";
             }
             else {
                 return "";
@@ -1035,7 +1033,7 @@
 
         function getVisualizationNoteImages() {
             //return the image names separated by a colon.
-            return "edge-hover.png:node-hover.png";
+            return "images/edge-hover.png:images/node-hover.png";
         }
 
         function getVisualizationHint() {
