@@ -1,14 +1,16 @@
-# Nodelink vs Adjacency Matrices Study.
+# Nodelink vs Adjacency Matrice Study.
 
-This is a repository of supporting files for a study that compares Nodelinks and Adjacency Matrices. Results from this study has been published in a conference paper that appeared in Graph Drawing (2017). An extended version of this results has also been submitted to TVCG.
+This repository contains supporting files for a study that compared Graph Visualizations (Node-link and Adjacency Matrice). 
+
+The study evaluated interactive Node-link and Adjancecy Matrice visualizations, using a crowdsourced, between-subject methdology, with 557 distinct online users. We evaluated 14 tasks, and used 1 real-world dataset.
 
 The sections below describe the files contained in each of the main directories 
 
 ## Visualization Setups
-The Visualization setups, and introduction files used/
+This directory contains the visualizations (Node-link and Adjacency Matrice) and introduction files used for each of the 5 groups of the study.
 
 ## Database
-This directory contains the dataset used in the study. It contains the version of the Receipe dataset used tin the study. It also contains the positions file (Used in position the nodes in the Node-Link visualization).
+This directory contains the dataset used in the study. It contains the version of the `Receipe dataset` used for the study, as well as the `positions` file used to position nodes in the Node-link visualization.
 
 
 ## Results
