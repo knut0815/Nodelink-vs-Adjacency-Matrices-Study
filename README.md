@@ -2,9 +2,9 @@
 
 This repository contains supporting files for a study that compared Graph Visualizations (Node-link and Adjacency Matrice). 
 
-We evaluated interactive Node-link and Adjacency Matrice visualizations, using a `between-subject methdology`, with `557` distinct `crowdsourced` users. We used `1` real-world dataset, and evaluated `14` tasks.
+We evaluated interactive Node-link and Adjacency Matrice visualizations, using a `between-subject methdology`, with `557 distinct crowdsourced users`. We used `1 real-world dataset`, and evaluated `14 tasks`.
 
-Results from this study has been published in a conference paper that appeared in `Graph Drawing (2017)`. An extended version of this results has also been submitted to `TVCG`.
+Results from this study has been published in a conference paper that appeared in `Graph Drawing (2017)`. And an extended version of this results has also been submitted to `TVCG`.
 
 The sections below describe the files contained in each of the main directories.
 
