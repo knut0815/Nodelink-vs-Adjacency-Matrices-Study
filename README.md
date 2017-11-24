@@ -19,7 +19,7 @@ This directory contains the dataset used in the study. It contains the version o
 This directory contains the Qualitative results (`Accuracy and Time`) for each of the evaluated tasks. It also contains the Qualitative results (`User Feedback, Window Sizes, etc.`) for each of the 5 Groups of the study.
 
 ## Supplemental Material
-This directory contains video demos of how the studies were presented to participants. It also contains an SpreadSheet that contains all the results of the study, and a document that contains datasets we considered for this study.
+This directory contains `video demos` of how the studies were presented to participants. It also contains `spreadsheets` of interactions we considered for this study, and the results of the set; as well as a document of datasets we considered for this study.
 
 ## Tasks
 This directory contains all the tasks that were used in the study. The files are named with a short name of the task. Each task file is an an XML file that contains the task instances that were used in the study. A given task instance (`<question>`), contains the nodes that were used in the task (`<inputs>`), and the correct answers (`<answer>`). 
