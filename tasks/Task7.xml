@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<taskFile>	
-	<!-- 
+<taskFile>
 	<question>
 		<input>1</input>
 		<input>2</input>
@@ -15,8 +14,7 @@
 		<input>2</input>
 		<input>7</input>
      	<answer>red</answer>
-	</question>	-->
-	
+	</question>	
 	<question>
 		<input>8</input>
 		<input>2</input>
@@ -25,28 +23,28 @@
 	<question>
 		<input>3</input>
 		<input>6</input>
+     	<answer>red</answer>
+	</question>	
+	<question>
+		<input>8</input>
+		<input>3</input>		
      	<answer>blue</answer>
 	</question>	
 	<question>
-		<input>3</input>
 		<input>8</input>
-     	<answer>red</answer>
-	</question>	
-	<question>
-		<input>6</input>
-		<input>8</input>
-     	<answer>red</answer>
+		<input>6</input>		
+     	<answer>blue</answer>
 	</question>	
 	<question>
 		<input>1</input>
 		<input>6</input>
-     	<answer>blue</answer>
+     	<answer>red</answer>
 	</question>	
 	<question>
-		<input>4</input>
-		<input>6</input>
+		<input>1</input>
+		<input>5</input>
      	<answer>blue</answer>
-	</question>	
+	</question>		
 	<question>
 		<input>5</input>
 		<input>2</input>
@@ -58,19 +56,20 @@
      	<answer>red</answer>
 	</question>	
 	<question>
-		<input>1</input>
 		<input>7</input>
-     	<answer>red</answer>
+		<input>1</input>
+		
+     	<answer>blue</answer>
 	</question>		
 	<question>
-		<input>3</input>
 		<input>2</input>
-     	<answer>red</answer>
+		<input>3</input>	
+     	<answer>blue</answer>
 	</question>	
 	<question>
-		<input>1</input>
-		<input>5</input>
-     	<answer>red</answer>
+		<input>6</input>
+		<input>4</input>		
+     	<answer>blue</answer>
 	</question>	
 	<question>
 		<input>1</input>

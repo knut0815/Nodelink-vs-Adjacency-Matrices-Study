@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <taskFile>
-<!-- 
     <question>
 		<input>cream_cheese</input>	
 		<answer>5</answer>
@@ -8,7 +7,7 @@
    <question>		
 		<input>berry</input>
 		<answer>22</answer>
-	</question>	 -->
+	</question>
 	<question>		
 		<input>white_bread</input>
 		<answer>20</answer>

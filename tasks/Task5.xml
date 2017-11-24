@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <taskFile>
-	<!--
 	<question>
 		<input>egg;;wheat</input>	
 		<input>coffee;;concord_grape</input>
@@ -15,8 +14,7 @@
 		<input>shallot;;butter</input>
 		<input>balm;;white_wine</input>
 		<answer>blue</answer>
-	</question>	-->
-							
+	</question>							
 	<question>
 		<input>thyme;;fennel</input>	
 		<input>pumpkin;;cucumber</input>

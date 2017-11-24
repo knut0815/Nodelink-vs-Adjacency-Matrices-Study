@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <taskFile>
-	<!--
 	<question>
 		<input>broccoli</input>
 		<answer>cheddar;;macaroni</answer>
@@ -12,7 +11,7 @@
 	<question>
 		<input>peanut</input>
 		<answer>lemongrass;;licorice;;cereal</answer>
-	</question> -->
+	</question>
 	<question>
 		<input>pea</input>
 		<answer>carrot;;saffron;;pimento;;rice</answer>
