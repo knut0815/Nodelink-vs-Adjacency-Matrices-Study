@@ -13,7 +13,7 @@ This directory contains the visualizations (Node-link and Adjacency Matrice) and
 
 Deployed versions of these study setups can be found at: http://ec2-34-229-95-54.compute-1.amazonaws.com/graphunit/nl-vs-mat-study/
 
-## Database
+## Dataset
 This directory contains the dataset used in the study. It contains the version of the `Receipe dataset` used for the study, as well as the `positions` file used to position nodes in the Node-link visualization.
 
 
