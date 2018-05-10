@@ -1,3 +1,5 @@
 Links to the deployed studies can be found at the following link:
 
-http://ec2-34-229-95-54.compute-1.amazonaws.com/graphunit/nl-vs-mat-study/
+Study1 (ingredients-dataset): http://www.visunit.org/graphunit/nl-vs-mat-study/
+
+Study2 (airports-dataset): http://www.visunit.org/graphunit-tvcg/nl-vs-mat-study2/
