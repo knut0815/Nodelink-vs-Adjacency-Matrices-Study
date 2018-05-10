@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<taskFile>
+		
+	<!--
+	<question>
+		<input>BTM</input>
+		<input>CLL</input>
+		<taskoptions>NYL::FLL::EVV</taskoptions>
+		<answer>NYL</answer>
+	</question>
+
+	<question>
+		<input>PFN</input>
+		<input>GGG</input>
+		<taskoptions>ITH::DAL::JHM</taskoptions>
+		<answer>DAL</answer>
+	</question>  -->
+	
+	
+	<question>
+		<input>YNG</input>
+		<input>YNG</input>
+		<answer>MHT;;LAW</answer>
+	</question>
+	
+	<question>
+		<input>GSO</input>		
+		<input>GSO</input>		
+		<answer>DSM;;HDN</answer>
+	</question>
+	<question>
+		<input>FWA</input>		
+		<input>FWA</input>		
+		<answer>ICT;;CAE</answer>
+	</question>
+	
+	<question>
+		<input>SJC</input>
+		<input>SJC</input>
+
+		<answer>MIA;;PKA</answer>
+	</question>
+	<question>
+		<input>EVV</input>	
+		<input>EVV</input>	
+		<answer>DBQ;;ELM</answer>
+	</question>
+	
+	<!--
+	
+	<question>
+		<input>A61</input>
+		<input>HOU</input>
+		<answer>PKA;;FWA</answer>
+	</question>
+	<question>
+		<input>RAP</input>
+		<input>ASE</input>
+		<answer>RDD;;EWR</answer>
+	</question>
+	<question>
+		<input>MFE</input>
+		<input>GGV</input>
+		<answer>SAN;;ASE;;FWA</answer>
+	</question>
+	<question>
+		<input>RDM</input>
+		<input>SMF</input>
+		<answer>CLE;;ONT;;MDW;;RNO;;ASE;;BUR</answer>
+	</question>
+	<question>
+		<input>CIC</input>
+		<input>COU</input>
+		<answer>STS;;SCK</answer>
+	</question>
+	
+	<question>
+		<input>PFN</input>
+		<input>DAL</input>
+		<answer>GGG;;TLT;;Z13</answer>
+	</question>
+	
+	 FAI, JNU:  TXK, GSN-->
+</taskFile>

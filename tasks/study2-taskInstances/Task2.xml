@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<taskFile>
+
+	<question>
+		<input>LGA</input>
+		<answer>ASE;;GGV</answer>
+	</question>
+	<question>
+		<input>AQH</input>
+		<answer>A61;;PKA;;CID;;FWA</answer>
+	</question>
+	
+	<question>
+		<input>ADQ</input>
+		<answer>PTH;;AKN;;DLG</answer>
+	</question>
+	
+	<question>
+		<input>HPN</input>
+		<answer>GRB;;RDD;;BWI</answer>
+	</question>
+	
+	<question>
+		<input>PFN</input>
+		<answer>FWA;;GGG;;BZN;;DEC;;DAL;;TLT;;Z13</answer>
+	</question>
+	<question>
+		<input>SJT</input>
+		<answer>LBB;;NYL;;CRW;;MGM;;JAX</answer>
+	</question>
+	<question>
+		<input>PUB</input>
+		<answer>BIL;;SUX;;NYL;;LBB</answer>
+	</question>
+	<question>
+		<input>RIC</input>
+		<answer>HUF;;PHL;;SBA;;SAN;;OME;;SDF;;SWF</answer>
+	</question>
+	<question>
+		<input>SMF</input>
+		<answer>RDM;;BUR;;SAN;;ASE;;RNO;;MDW;;ONT;;CLE</answer>
+	</question>
+	<question>
+		<input>BLI</input>
+		<answer>BTM;;HLN;;GPI;;DLH;;PWM;;LBB;;TLT</answer>
+	</question>
+	<question>
+		<input>MIA</input>
+		<answer>FWA;;SJC;;A61;;PKA</answer>
+	</question>
+	<question>
+		<input>MLI</input>
+		<answer>PIA;;LBB;;GSO;;FWA</answer>
+	</question>
+	<question>
+		<input>BUY</input>
+		<answer>HVN;;SAN;;GSO;;FWA;;MCO</answer>
+	</question>
+	<question>
+		<input>ALW</input>
+		<answer>DEC;;PHX;;EWR</answer>
+	</question>
+	<question>
+		<input>MMH</input>
+		<answer>ROA;;YNG;;EVV;;FLG</answer>
+	</question>
+	<question>
+		<input>PDX</input>
+		<answer>SYA;;MSP;;PTH</answer>
+	</question>
+	
+</taskFile>

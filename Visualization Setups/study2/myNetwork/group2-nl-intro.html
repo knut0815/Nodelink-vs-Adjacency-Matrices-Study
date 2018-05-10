@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Introduction</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body{
+                width:850px;
+				margin: 10px auto;
+            }
+            img{
+                margin: 10px;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>       
+        <h3>Introduction</h3>
+
+
+        <p>
+            This is a research study. We want to understand how to best show network data (items with connections between them). 
+            We will show you a visualization of US airports (ex: MIA, JFK) with links between airports that 
+			often have connecting flights.
+        </p>
+
+        <img src="nl_legend_0.png" height="200" /> 
+
+        <br><br>
+		
+		<div>
+		
+			<div style="margin-top: 5px; margin-bottom: 5px;">
+				You can interact with the visualization as follows: 
+			</div>
+			
+			<ul>
+				<li>
+					<b>Zoom</b> by using the mouse wheel. 
+				</li>
+				<li>
+					<b>Pan</b> by pressing the left mouse button down and
+					dragging (as in Google maps).
+				</li>
+				<li>
+					<b>Select and deselect</b> airports as <b>answers</b> by double-clicking on them.
+				</li>
+				<li>
+					<b>Select and deselect</b> airports as <b>highlights</b> by clicking on them once.
+				</li>
+				<li>
+					<b>Move</b> airports by 
+            dragging them (sometimes this can be useful to tell where its links go).
+				</li>
+				<li>
+					<b>Mouse-over</b> airports and links to highlight them.
+				</li>
+				
+			</ul>
+			
+			
+             
+            
+              
+
+         
+			
+			
+			
+		
+			<div style="margin-top: 5px; margin-bottom: 5px;">
+			   Here is an example of a selected answer, a highlighted node, a hovered node and a hovered edge respectively.<br>
+				<img src="node-selected-answer.png" height="150"/>
+				<img src="node-clicked.png" height="160"/>
+				<img src="node-hover2.png" height="160"/>
+				<img src="edge-hover2.png" height="160" />
+			</div>	            
+		</div>
+		
+		
+		
+		
+	
+
+
+            <br><br>
+        <p>We will ask you a few questions about this data. Please answer the questions as fast and accurate as possible by viewing
+            and interacting with the visualization. There will be a <b>countdown</b> for each question; once it expires, we will 
+            hide the visualization. We will give you a <b>turk-code</b> to use for payment once you finish the study.</p>
+
+        <p align="center">
+            <br>
+            <br>
+            <b>We will pay a $2 bonus to the user with the best overall accuracy/time.</b>
+            <br><br>
+            <b>The study includes two questions we consider to be easy enough that everyone can answer correctly. You need to answer both
+                correctly to receive payment.</b>   
+            <br>
+            <br>
+        </p>
+
+
+        <br><br>
+        <h3>Tasks</h3> 
+        <b>Task 1</b>: <b>"Given the two highlighted airports, select all airports that they both connect to."</b> <br><Br>
+
+        Remember, you
+        can select and deselect nodes as answers by double-clicking on them. 
+        A Selected answer will have a black circle around the node.
+        See a few examples below:<br><br>
+        <table align="center">
+            <tr><td align="center"><em>Questions</em></td><td align="center"><em>Answers</em></td></tr>
+            <tr>
+				<td><img src="g2-images/task1-1-qn.png" height="200"></td>
+				<td><img src="g2-images/task1-1-ans.png" height="200"></td>
+			</tr>
+            <tr>
+				<td><img src="g2-images/task1-2-qn.png" height="210">
+				</td><td><img src="g2-images/task1-2-ans.png" height="210"></td>
+			</tr>
+        </table>
+
+
+
+        <b>Task2</b>: <b>"Given the two highlighted pairs of airports (red and blue), can you estimate which pair has a shorter path of connections between them?"</b>
+        
+		<br><br>
+
+	HINT: The group whose members are closer in number of steps from each other wins. 
+	This is an estimation task! You may not have time to find the exact match, just give your best guess.		<br><br>
+
+	
+        <table align="center">
+            <tr>
+				<td align="center"><em>Questions</em></td>
+				<td align="center"><em>Answers</em></td>
+			</tr>
+            <tr>
+				<td><img src="g2-images/task2-an-1-qn.png" height="300"></td>
+				<td><img src="blue-answer.png" width="160"></td>
+			</tr>
+            <tr>
+				<td><img src="g2-images/task2-an-2-qn.png"  height="300"></td>
+				<td><img src="red-answer.png" height="160"></td>
+			</tr>
+        </table>        
+    </body>
+</html>

@@ -1,3 +1,6 @@
+Below are the questions that were asked for each question. 
+----------------------------------------------------------
+
 Task1: Given two highlighted nodes, select the one with the larger degree.
 
 Task2: Given a highlighted node, select all its neighbors

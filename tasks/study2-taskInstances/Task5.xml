@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<taskFile>
+							
+	<question>
+		<input>PIH;;JHM</input>	
+		<input>GST;;OME</input>
+		<answer>red </answer>
+	</question>
+	<question>
+		<input>BTM;;BMI</input>	
+		<input>JAN;;GGV</input>
+		<answer>blue</answer>
+	</question>
+	
+	
+	
+	<question>
+		<input>AQH;;PKA</input>	
+		<input>PIE;;DCA</input>
+		<answer>red</answer>
+	</question>
+	<question>
+		<input>TVL;;COU</input>	
+		<input>GTF;;TLT</input>
+		<answer>blue</answer>
+	</question>
+	<question>
+		<input>YKM;;ILM</input>	
+		<input>JLN;;HZE</input>
+		<answer>blue</answer>
+	</question>
+	<question>
+		<input>CIC;;SPS</input>	
+		<input>WRG;;FYV</input>
+		<answer>red</answer>
+	</question>
+	<question>
+		<input>PPG;;MGM</input>	
+		<input>MDT;;OTH</input>
+		<answer>red</answer>
+	</question>
+	<question>
+		<input>YKM;;DTW</input>	
+		<input>TRI;;PVD</input>
+		<answer>blue</answer>
+	</question>
+	<question>
+		<input>DRO;;EVV</input>	
+		<input>MFE;;COU</input>
+		<answer>red</answer>
+	</question>
+	<question>
+		<input>BHM;;DCA</input>	
+		<input>EAT;;MGM</input>
+		<answer>red</answer>
+	</question>
+	<question>
+		<input>MFE;;ILM</input>	
+		<input>YNG;;JON</input>
+		<answer>blue</answer>
+	</question>
+	<question>
+		<input>MOB;;JLN</input>	
+		<input>CHO;;EEK</input>
+		<answer>blue</answer>
+	</question>
+	
+	<question>
+		<input>ISO;;GGV</input>	
+		<input>LIH;;TNI</input>
+		<answer>blue</answer>
+	</question>
+	<question>
+		<input>OTZ;;IDA</input>	
+		<input>SZT;;HLN</input>
+		<answer>red</answer>
+	</question>
+	
+	<!-- PIE, DET ;; JLN;;MWA   :  UIN, BLI : DCA, GST -->
+	
+	
+	
+</taskFile> 

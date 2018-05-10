@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Introduction</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body{
+                width:850px;
+				margin: 10px auto;
+            }
+            img{
+                margin: 10px;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>       
+        <h3>Introduction</h3>
+
+
+        <p>
+            This is a research study. We want to understand how to best show network data (items with connections between them). 
+            We will show you a visualization of US airports (ex: MIA, JFK) with links between airports that 
+			often have connecting flights.
+        </p>
+
+        <img src="nl_legend_0.png" height="200" /> 
+
+        <br><br>
+		
+		<div>
+		
+			<div style="margin-top: 5px; margin-bottom: 5px;">
+				You can interact with the visualization as follows: 
+			</div>
+			
+			<ul>
+				<li>
+					<b>Zoom</b> by using the mouse wheel. 
+				</li>
+				<li>
+					<b>Pan</b> by pressing the left mouse button down and
+					dragging (as in Google maps).
+				</li>
+				<li>
+					<b>Select and deselect</b> airports as <b>answers</b> by double-clicking on them.
+				</li>
+				<li>
+					<b>Select and deselect</b> airports as <b>highlights</b> by clicking on them once.
+				</li>
+				<li>
+					<b>Move</b> airports by 
+            dragging them (sometimes this can be useful to tell where its links go).
+				</li>
+				<li>
+					<b>Mouse-over</b> airports and links to highlight them.
+				</li>
+				
+			</ul>			
+		
+			<div style="margin-top: 5px; margin-bottom: 5px;">
+			   Here is an example of a selected answer, a highlighted node, a hovered node and a hovered edge respectively.<br>
+				<img src="node-selected-answer.png" height="150"/>
+				<img src="node-clicked.png" height="160"/>
+				<img src="node-hover2.png" height="160"/>
+				<img src="edge-hover2.png" height="160" />
+			</div>	            
+		</div>
+		
+		<br><br>
+        <p>We will ask you a few questions about this data. Please answer the questions as fast and accurate as possible by viewing
+            and interacting with the visualization. There will be a <b>countdown</b> for each question; once it expires, we will 
+            hide the visualization. We will give you a <b>turk-code</b> to use for payment once you finish the study.</p>
+
+        <p align="center">
+            <br>
+            <br>
+            <b>We will pay a $2 bonus to the user with the best overall accuracy/time.</b>
+            <br><br>
+            <b>The study includes two questions we consider to be easy enough that everyone can answer correctly. You need to answer both
+                correctly to receive payment.</b>   
+            <br>
+            <br>
+        </p>
+		
+		<br><br>
+        <h3>Tasks</h3> 
+
+		
+        <b>Task1</b>: <b>"Determine if a highlighted airport is connected to another given airport "</b><br><br>
+        
+        See a few examples below:<br>
+        <table align="center">
+            <tr><td align="center"><em>Questions</em></td><td align="center"><em>Answers</em></td></tr>
+            <tr><td>
+                    <br> <em>Is the highlighted airport (MLI) connected to LBB? <br> <br>
+                        <img src="g4-images/task1-1-qn.png"></td><td><img src="yes-answer.png" ></td></tr>
+						
+			<tr><td>
+				<br> <em>Is the highlighted airport (ORD) connected to SIT? <br> <br>
+				<img src="g4-images/task1-1-qn.png"></td><td><img src="no-answer.png" ></td></tr>
+
+        </table> 
+
+        <br><br>
+
+        <b>Task2</b>: 
+
+        <b>"Given two highlighted airports, determine the shortest number of links between them."</b><br>
+
+       
+        <br>See a few examples below:
+
+        <br><br>
+        <table align="center">
+            <tr><td align="center"><em>Questions</em></td><td align="center"><em>Answers</em></td></tr>
+            <tr><td  style="padding-right: 10px;">
+			<img src="g4-images/task2-1-qn.png"  /></td><td><td style="padding-left:0px"><b>2</b> </td><br/>           
+			<tr><td  style="padding-right: 10px;">
+			<img src="g4-images/task2-1-qn.png"  /></td><td><td style="padding-left:0px"><b>2</b> </td><br/>           
+        </table>
+
+        
+    </body>
+</html>

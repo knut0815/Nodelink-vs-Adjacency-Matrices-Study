@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+	<study_specification>
+	<studyname>group4</studyname>
+	<experimenttype_vis>Between</experimenttype_vis>
+	<experimenttype_ds>Between</experimenttype_ds>
+	<trainingsize>2</trainingsize>
+	<condition>
+		<conditionurl>myNetwork/node-link.html</conditionurl>
+		<conditionshortname>nl</conditionshortname>
+	</condition>
+	<condition>
+		<conditionurl>myNetwork/matrix.html</conditionurl>
+		<conditionshortname>mat</conditionshortname>
+	</condition>
+	<datasetCondition>
+		<dataset>usair-gmap-97</dataset>
+		<datasetType>mershack_Datasets</datasetType>
+		<datasetFormat>.json</datasetFormat>
+	</datasetCondition>
+	<viewerwidth>860</viewerwidth>
+	<viewerheight>750</viewerheight>
+	
+	<task>
+		<name>isANodeConnectedToANamedNode</name>
+		<question>Is the highlighted node ($2) connected to $3?</question>
+		<size>5</size>
+		<time>40</time>
+	</task> 
+			
+	 <task>
+		<name>shortestPathBetween2Nodes</name>
+		<question>Given the two highlighted nodes, what is the shortest number of links between them?</question>
+		<size>5</size>
+		<time>120</time>
+	</task>  
+	
+	
+	<task>
+		<name>areTwoNamedNodesConnected</name>
+		<question>Remember answers found for previously answered connectivity questions</question>
+		<size>5</size>
+		<time>0</time>
+	</task>  		
+	
+	<introFile>
+		<introURL>group4-nl-intro.html</introURL>
+		<introCond>nl</introCond>
+	</introFile>
+	<introFile>
+		<introURL>group4-mat-intro.html</introURL>
+		<introCond>mat</introCond>
+	</introFile>
+	
+	<standardTest>
+		<standardTestURL></standardTestURL>
+		<standardTestUserResponse></standardTestUserResponse>
+		<standardTestUserPerformance></standardTestUserPerformance>
+	</standardTest>
+	
+	
+	<preStudyTask>
+		<name>age</name>
+		<question>What's your age?</question>
+	</preStudyTask>
+	
+	
+	<preStudyTask>
+		<name>gender</name>
+		<question>What is your gender?</question>
+	</preStudyTask>
+	<preStudyTask>
+		<name>educational_background</name>
+		<question>What is the highest degree or level of school you have completed?</question>
+	</preStudyTask>
+	<preStudyTask>
+		<name>network_knowledge</name>
+		<question>How familiar are you with visual representations of networks, such as this one? (1-little familiar, 5-very familiar)</question>
+	</preStudyTask>
+	
+	<postStudyTask>
+		<name>mturk</name>
+		<question>Please enter your Mechanical Turk ID</question>
+	</postStudyTask>
+	<postStudyTask>
+		<name>feedback</name>
+		<question>Do you have any feedback,comment or what issue did you had in this study?</question>
+	</postStudyTask>  
+	
+	
+</study_specification>

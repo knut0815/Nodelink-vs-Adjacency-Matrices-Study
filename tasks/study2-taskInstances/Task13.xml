@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<taskFile>
+	<question>
+		<input>LAX</input>
+		<answer>8</answer>
+	</question>
+	<question>
+		<input>PUW</input>
+		<answer>6</answer>
+	</question>
+	<question>
+		<input>HPN</input>
+		<answer>18</answer>
+	</question>  
+	<question>
+		<input>HPN</input>
+		<answer>28</answer>
+	</question>
+	<question>
+		<input>CAK</input>
+		<answer>8</answer>
+	</question>
+	<question>
+		<input>ADQ</input>
+		<answer>15</answer>
+	</question>
+	<question>
+		<input>PHF</input>
+		<answer>14</answer>
+	</question>
+	
+	<question>
+		<input>PHF</input>
+		<answer>9</answer>
+	</question>	
+	<question>
+		<input>COU</input>
+		<answer>30</answer>
+	</question>		
+	<question>
+		<input>SPS</input>
+		<answer>5</answer>
+	</question>
+	
+</taskFile> 

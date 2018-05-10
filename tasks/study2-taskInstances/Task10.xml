@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<taskFile>
+
+	<question>
+		<input>PIH;;JHM</input>			
+		<answer>1</answer>
+	</question>
+	
+	<question>		
+		<input>GST;;OME</input>
+		<answer>2</answer>
+	</question>		
+	<question>		
+		<input>JAN;;GGV</input>
+		<answer>2</answer>
+	</question>
+	<question>
+		<input>YKM;;ILM</input>			
+		<answer>3</answer>
+	</question>		
+	
+	<question>		
+		<input>PIE;;DCA</input>
+		<answer>2</answer>
+	</question>
+	<question>
+		<input>WRG;;FYV</input>
+		<answer>3</answer>
+	</question>
+	<question>
+		<input>TVL;;COU</input>			
+		<answer>2</answer>
+	</question>
+	
+
+
+
+
+
+
+		<!--					
+	<question>
+		<input>PIH;;JHM</input>			
+		<answer>1</answer>
+	</question>
+	
+	<question>		
+		<input>GST;;OME</input>
+		<answer>2</answer>
+	</question>
+		
+	<question>		
+		<input>JAN;;GGV</input>
+		<answer>2</answer>
+	</question>		
+	<question>
+		<input>AQH;;PKA</input>			
+		<answer>1</answer>
+	</question>	
+	<question>		
+		<input>PIE;;DCA</input>
+		<answer>2</answer>
+	</question>
+	
+	
+	<question>
+		<input>TVL;;COU</input>			
+		<answer>2</answer>
+	</question>
+	
+	<question>
+		
+		<input>GTF;;TLT</input>
+		<answer>1</answer>
+	</question>	
+	<question>
+		<input>YKM;;ILM</input>			
+		<answer>3</answer>
+	</question>	
+	<question>		
+		<input>JLN;;HZE</input>
+		<answer>2</answer>
+	</question>	
+	
+	
+	<question>
+		<input>CIC;;SPS</input>	
+		<answer>2</answer>
+	</question>
+
+	
+	<question>
+		<input>WRG;;FYV</input>
+		<answer>3</answer>
+	</question>
+	
+	
+	
+	<question>
+		<input>PPG;;MGM</input>	
+		<answer>1</answer>
+	</question>
+		
+	<question>
+		<input>MDT;;OTH</input>
+		<answer>2</answer>
+	</question>		 -->
+	
+	
+	
+	<!-- ['PPG', 'MGM'] -->
+	<!-- ['MDT', 'OTH'] -->
+	
+	
+	
+	
+	<!-- PIE, DET ;; JLN;;MWA   :  UIN, BLI : DCA, GST -->
+	
+	
+	
+</taskFile> 

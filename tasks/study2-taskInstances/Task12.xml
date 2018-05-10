@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<taskFile>
+		
+	
+	<question>
+		<input>BTM</input>
+		<input>CLL</input>
+		<taskoptions>NYL::FLL::EVV</taskoptions>
+		<answer>NYL</answer>
+	</question>
+
+	<question>
+		<input>PFN</input>
+		<input>GGG</input>
+		<taskoptions>ITH::DAL::JHM</taskoptions>
+		<answer>DAL</answer>
+	</question>
+	
+	
+	<question>
+		<input>MHT</input>
+		<input>LAW</input>
+		<taskoptions>EVV::BTM::YNG</taskoptions>
+		<answer>YNG</answer>
+	</question>
+	
+	<question>
+		<input>DSM</input>
+		<input>HDN</input>
+		<taskoptions>LBB::GSO::CLE</taskoptions>
+		<answer>GSO</answer>
+	</question>
+	<question>
+		<input>ICT</input>
+		<input>CAE</input>
+		<taskoptions>FWA::MIA::Z13</taskoptions>
+		<answer>FWA</answer>
+	</question>
+	
+	<question>
+		<input>MIA</input>
+		<input>PKA</input>
+		<taskoptions>RAP::EWR::SJC</taskoptions>
+		<answer>SJC</answer>
+	</question>
+	<question>
+		<input>DBQ</input>
+		<input>ELM</input>
+		<taskoptions>A61::EVV::GGV</taskoptions>
+		<answer>EVV</answer>
+	</question>
+	
+	<!--
+	
+	<question>
+		<input>A61</input>
+		<input>HOU</input>
+		<answer>PKA;;FWA</answer>
+	</question>
+	<question>
+		<input>RAP</input>
+		<input>ASE</input>
+		<answer>RDD;;EWR</answer>
+	</question>
+	<question>
+		<input>MFE</input>
+		<input>GGV</input>
+		<answer>SAN;;ASE;;FWA</answer>
+	</question>
+	<question>
+		<input>RDM</input>
+		<input>SMF</input>
+		<answer>CLE;;ONT;;MDW;;RNO;;ASE;;BUR</answer>
+	</question>
+	<question>
+		<input>CIC</input>
+		<input>COU</input>
+		<answer>STS;;SCK</answer>
+	</question>
+	
+	<question>
+		<input>PFN</input>
+		<input>DAL</input>
+		<answer>GGG;;TLT;;Z13</answer>
+	</question>
+	
+	 FAI, JNU:  TXK, GSN-->
+</taskFile>

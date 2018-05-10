@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Introduction</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body{
+                width:850px;
+				margin: 10px auto;
+            }
+            img{
+                margin: 5px;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>       
+        <h3>Introduction</h3>
+
+            
+       <p>
+        This is a research study. We want to understand how to best show network data (items with connections between them). 
+        We will use a matrix to show you how US airports (e.g. MIA, JFK) are often used for connecting flights. 
+        
+		
+		
+		
+		
+		All airports are listed once vertically and once horizontally. Two airports are connected (often used for 
+		connecting flights) if there is a black dot in the matrix at their intersection. 
+		The example below shows that FLL is connected to two airports (GSO and IND), JAX is connected to four airports
+		(FWA, GNV, GRR, GSO, ITH), and both IAD and ISO are not connected to any airports.
+       </p>
+
+	<img src="matrix_legend_0.png"/> 
+
+	<br><br>
+        <div>
+		
+			<div style="margin-top: 5px; margin-bottom: 5px;">
+				You can interact with the visualization. 
+			</div>
+			
+			
+			<ul>
+			
+				<li>
+					<b>Zoom</b> by using the mouse wheel.
+				</li>
+				<li>
+					<b>Pan</b> by pressing the left mouse button down and dragging (as in Google maps).
+				</li>
+				<li> 
+					<b>Select and deselect</b> airports as <b>answers</b> by double-clicking on them (either in the row or column headers).
+				</li>
+				<li>
+					<b>Select and deselect</b> airports as <b>highlights</b> by clicking once on them (either in the row or column headers). 
+				</li>
+				<li>
+					<b>Mouse-over</b> airports and links (the black dots) to highlight them.
+				</li>  
+			</ul>
+		
+			<div style="margin-top: 5px; margin-bottom: 5px;">
+				 Here is an example of a selected answer, a highlighted row, a hovered row and a hovered connection respectively.<br><br>
+				 <img src="matrix-selected-answer.png" height="180"/>
+				 <img src="matrix-selected-row.png" height="180"/>       
+				<img src="matrix-row-hover.png" height="180"/>
+				<img src="matrix-link-hover.png" height="180" />
+			</div>	            
+		</div>
+
+        
+
+	<br><br>
+	<p>We will ask you a few questions about this data. Please answer the questions as fast and accurate as possible by viewing
+         and interacting with the visualization. There will be a <b>countdown</b> for each question; once it expires, we will 
+         hide the visualization. We will give you a <b>turk-code</b> to use for payment once you finish the study.</p>
+
+	<p align="center">
+	<br>
+        <br>
+	<b>We will pay a $2 bonus to the user with the best overall accuracy/time.</b>
+	<br><br>
+        <b>The study includes two questions we consider to be easy enough that everyone can answer correctly. You need to answer both
+        correctly to receive payment.</b>   
+	<br>
+	<br>
+	</p>
+	
+	 
+      <br><br>
+       <h3>Tasks</h3> 
+		<b>Task1</b>: <b>"Which of the following airports is connected to both highlighted airports?"</b><br><br>
+        
+		See an example below:<br><br>
+		
+		<div>Hint: Two airports have a common connection if they both have a black dot on a given column.</div>
+         <table align="center">
+             <tr><td align="center"><em>Questions</em></td><td align="center"><em>Answers</em></td></tr>
+           <tr><td><img src="g5-images/task1-mat-1-qn.png" height="250"></td><td><img src="g5-images/task1-mat-1-ans.png" ></td></tr>  
+		   <tr><td><img src="g5-images/task1-mat-2-qn.png" height="250"></td><td><img src="g5-images/task1-mat-2-ans.png" ></td></tr>  
+         </table>
+         
+<br>
+         <b>Task2</b>: 
+         <b>"How many airports are within two connections from the highlighted airport?"</b><br><br>
+        
+	See an example below:<br><br>
+	<div>Hint: Count all the one black dots on the row (one-step connections), 
+		and for each column containing a connection, count all the connections on that column (two-step connections).
+	</div>
+        <table align="center">
+             <tr><td align="center"><em>Questions</em></td><td align="center"><em>Answers</em></td></tr>
+             <tr><td><img src="g5-images/task2-mat-1-qn.png" height="250"></td><td><img src="g5-images/task2-mat-1-ans.png" ></td></tr>  
+		   <tr><td><img src="g5-images/task2-mat-2-qn.png" height="250"></td><td><img src="g5-images/task2-mat-2-ans.png" ></td></tr>  
+         </table>  
+
+	<br>
+         <b>Task3</b>: 
+         <b>We cannot show you the third task before you complete the first two.</b><br><br>
+        
+	 
+        
+         
+
+    </body>
+</html>
