@@ -14,11 +14,16 @@ This directory contains the visualizations (Node-link and Adjacency Matrice) and
 Deployed versions of these study setups can be found at: http://ec2-34-229-95-54.compute-1.amazonaws.com/graphunit/nl-vs-mat-study/
 
 ## Dataset
-This directory contains the dataset used in the study. It contains the version of the `Receipe dataset` used for the study, as well as the `positions` file used to position nodes in the Node-link visualization.
+This directory contains the dataset used in the study. 
+It contains the version of the `Receipe dataset` used for the study, as well 
+as the `positions` file used to position nodes in the Node-link visualization.
+
+It also contains the `Airports` dataset used for the second study.
 
 
 ## Results
-This directory contains the Qualitative results (`Accuracy and Time`) for each of the evaluated tasks. It also contains the Qualitative results (`User Feedback, Window Sizes, etc.`) for each of the 5 Groups of the study.
+This directory contains the Quantitative results (`Accuracy and Time`) for each of the evaluated tasks 
+and the Qualitative results (`User Feedback, Window Sizes, etc.`) for each of the 5 Groups of the studies.
 
 ## Supplemental Material
 This directory contains `video demos` of how the studies were presented to participants. It also contains `spreadsheets` of interactions we considered for this study, as well as a document of datasets we considered for this study.
